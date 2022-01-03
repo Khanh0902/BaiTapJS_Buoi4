@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <!-- Sắp Xếp Số Nguyên -->
+      <section style="text-align: center; font-size: 20px;">
+        <h1>Sắp Xếp Số Nguyên</h1>
+        <input style="font-size: 20px;" type="text" id="soNguyenMot" placeholder="Nhập vào số nguyên">
+        <input style="font-size: 20px;" type="text" id="soNguyenHai" placeholder="Nhập vào số nguyên">
+        <input style="font-size: 20px;" type="text" id="soNguyenBa" placeholder="Nhập vào số nguyên">
+        <button onclick="sapXep()" style="font-size: 20px;" >Sắp Xếp</button>
+        <br>
+        <br>
+        <div id="divSapXep" style="display: none;">
+            <small>Thứ Tự Số Nguyên Tăng Dần Là:</small>
+            <span id="spanSapXep"></span>
+        </div>
+    </section><br><br>
+    <hr><br>
+
+    <!-- Chương Trình Chào Hỏi  -->
+    <section  style="text-align: center; font-size: 20px;">
+    <h1 style="text-align: center; font-size: 40px;">Ai đang sử dụng máy tính:</h1>
+    <select style="text-align: center; font-size: 20px;"  id="dropDown">
+      <option value="B">Bố</option>
+      <option value="M">Mẹ</option>
+      <option value="A">Anh Trai</option>
+      <option value="E">Em Gái</option>
+    </select><br><br>
+    <button style="text-align: center; font-size: 20px;" onclick="xacNhan()">Xác Nhận</button>
+    </section><br><br>
+    <hr><br>
+
+    <!-- Bao Nhiêu Số Chẵn, Bao Nhiêu Số Lẻ -->
+    <section style="text-align: center; font-size: 20px;">
+        <h1>Bao Nhiêu Số Chẵn, Bao Nhiêu Số Lẻ</h1>
+        <input style="font-size: 20px;" type="text" id="soNguyenDuongMot" placeholder="Nhập vào số nguyên">
+        <input style="font-size: 20px;" type="text" id="soNguyenDuongHai" placeholder="Nhập vào số nguyên">
+        <input style="font-size: 20px;" type="text" id="soNguyenDuongBa" placeholder="Nhập vào số nguyên">
+        <button onclick="tinh()" style="font-size: 20px;" >Tính</button>
+    </section><br><br>
+    <hr><br>
+
+    <!-- Chương Trình Tìm Tam Giác -->
+       <section style="text-align: center; font-size: 20px;">
+        <h1>Chương Trình Tìm Tam Giác</h1>
+        <input style="font-size: 20px;" type="text" id="canhMot" placeholder="Nhập 3 cạnh tam giác">
+        <input style="font-size: 20px;" type="text" id="canhHai" placeholder="Nhập 3 cạnh tam giác">
+        <input style="font-size: 20px;" type="text" id="canhBa" placeholder="Nhập 3 cạnh tam giác">
+        <button onclick="timTamGiac()" style="font-size: 20px;" >Tính</button>
+    </section><br><br>
+
+<script src="./index.js"></script>
+</body>
+</html>
